@@ -14,5 +14,17 @@
   "type": "module",
   "workspaces": [
     "src/dtoken_frontend"
-  ]
+  ],
+  "dependencies": {
+    "@dfinity/auth-client": "^2.0.0"
+  },
+  "browserslist": [
+      "last 2 chrome version",
+      "last 2 firefox version",
+      "last 2 safari version",
+      "last 2 edge version",
+      "not dead",
+      "not < 0.25%",
+      "not IE 11"
+    ]
 }
